@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "aCMS-main", "..\..\..\..\..\..\Users\OstePC\Source\Repos\aCMS\aCMS-main\aCMS-main\aCMS-main.phpproj", "{F00D6B22-0BAE-4DE9-A6A0-84FD1A444328}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F00D6B22-0BAE-4DE9-A6A0-84FD1A444328}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F00D6B22-0BAE-4DE9-A6A0-84FD1A444328}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {38FA33FF-FFD7-4526-8DF6-986433EECB84}
+	EndGlobalSection
+EndGlobal
