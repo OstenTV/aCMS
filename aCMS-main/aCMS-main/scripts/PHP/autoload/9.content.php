@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * Gets the whole page index from DB.
+ * @return array[]
+ */
 function getPageIndex() {
 
     global $dbc;
@@ -20,6 +24,10 @@ function getPageIndex() {
 
 }
 
+/**
+ * Gets list of pages for the navbar from DB.
+ * @return array[]
+ */
 function getNavbarContent() {
 
     if ($pageIndex = getPageIndex()) {
