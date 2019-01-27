@@ -37,24 +37,11 @@
         <a class="navbar-brand" href="/">OstenTV</a>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
+                <?php foreach (getNavbarContent() as $page): ?>
                 <li id="nav-button-home" class="nav-item">
-                    <a class="nav-link" href="/">Home</a>
+                    <a class="nav-link" href="/?ref=<?php echo $page['ref']; ?>"><?php echo $page['displayName']; ?></a>
                 </li>
-                <li id="nav-button-services" class="nav-item">
-                    <a class="nav-link" href="/?view=services">Services</a>
-                </li>
-                <li id="nav-button-downloads" class="nav-item">
-                    <a class="nav-link" href="/?view=downloads">Downloads</a>
-                </li>
-                <li id="nav-button-faq" class="nav-item">
-                    <a class="nav-link" href="/?view=faq">FAQ</a>
-                </li>
-                <li id="nav-button-contact" class="nav-item">
-                    <a class="nav-link" href="/?view=contact">Contact</a>
-                </li>
-                <li id="nav-button-feedback" class="nav-item">
-                    <a class="nav-link" href="/?view=feedback">Feedback</a>
-                </li>
+                <?php endforeach; ?>
             </ul>
             <ul class="navbar-nav">
                 <?php if (isset($_SESSION['user'])): ?>
